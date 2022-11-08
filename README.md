@@ -1,7 +1,7 @@
 # bikesharing
 
 ## Project Overview
-Using Tableau to visualize relationships in NYC CitiBike rental data from August, 2019 to inform decision making about potential bike rental service opportunities. 8 visualizations of the data are created using Tableau and published on Tableau Public in the form of a Story. The Tableau Story can be viewed here : [NYC CitiBike Analysis](https://public.tableau.com/shared/PQ3NYBY87?:display_count=n&:origin=viz_share_link "link to dashboard")
+Using Tableau to visualize relationships in NYC CitiBike rental data from August, 2019 to inform decision making about potential bike rental service opportunities. 8 visualizations of the data are created using Tableau and published on Tableau Public in the form of a Story. The Tableau Story can be viewed here : [NYC CitiBike Analysis](https://public.tableau.com/shared/Q3GW5C9D9?:display_count=n&:origin=viz_share_link "link to dashboard")
 
 ### Resources
 - Data Source: "Resources/201908-citibike-tripdata.csv" retrieved from https://s3.amazonaws.com/tripdata/index.html
@@ -63,4 +63,8 @@ Our last two charts show the trip durations and trip counts based on the birth y
 A line graph is presented for each that plots the Average Trip Duration, and Number of rentals based on the birth year of the user. In the first graph we can clearly see that younger users tend to take longer trips, as expected. The second line chart reveals that a higher usage rate exists in the 20-40 age group. This supports our prior supposition of male and female commuters making up the majority of the users in the data.
 
 ## Summary
-Overall these visualizations reveal a couple of key points about the data. 
+Overall these visualizations reveal a several key points about the data. First we note that the majority of rentals are for short periods of time, less than half an hour. Next we see that Males make up the majority of the bike rentals. Subscribers are represented in much larger numbers than Customers, and usage rates are much higher during the week, specifically at commuting times, rather than on the weekends. This analysis suggests that the largest user demographic may be Male middle aged commuters who subscribe to the service, followed distantly by Female Subscribers. 
+Two additional visualations that could provide more information about this data are:
+
+- An Area chart showing Usertype by Birth Year: To see if certain age groups are more likely to be subscribers.
+- A Packed Bubble Route showing Starting and Ending station names: To visualize which routes are most popular. 
