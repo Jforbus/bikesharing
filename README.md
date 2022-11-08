@@ -1,7 +1,7 @@
 # bikesharing
 
 ## Project Overview
-Using Tableau to visualize relationships in NYC CitiBike rental data from August, 2019 to inform decision making about potential bike rental service opportunities. 8 visualizations of the data are created using Tableau and published on Tableau Public in the form of a Story. The Tableau Story can be viewed here : [link to dashboard](https://public.tableau.com/shared/PQ3NYBY87?:display_count=n&:origin=viz_share_link "NYC CitiBike Analysis")
+Using Tableau to visualize relationships in NYC CitiBike rental data from August, 2019 to inform decision making about potential bike rental service opportunities. 8 visualizations of the data are created using Tableau and published on Tableau Public in the form of a Story. The Tableau Story can be viewed here : [NYC CitiBike Analysis](https://public.tableau.com/shared/PQ3NYBY87?:display_count=n&:origin=viz_share_link "link to dashboard")
 
 ### Resources
 - Data Source: "Resources/201908-citibike-tripdata.csv" retrieved from https://s3.amazonaws.com/tripdata/index.html
