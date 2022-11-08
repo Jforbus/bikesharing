@@ -8,7 +8,7 @@ Using Tableau to visualize relationships in NYC CitiBike rental data from August
 - Software : Tableau Public 22.3, VS Code v1.71.2, Python 3.7, Pandas 1.3.5
 
 ## Results
-To begin we loaded the data into a Jupyter Notebook and utilized Pandas to convert the tripduration in the dataset from seconds to a datetime format from its original int64 datatype. This conversion is necessary to create the checktime visualizations in the story. The conversion is added as an additional column, and the tripduration column is kept as it is necessary for other visualizations not presented here. Once the conversion is completed the data is exported to a new csv file.
+To begin we loaded the data into a Jupyter Notebook and utilized Pandas to convert the tripduration in the dataset from seconds to a datetime format from its original int64 datatype. This conversion is necessary to create the checktime visualizations in the story. The conversion is added as an additional column, and the tripduration column is kept for use in other visualizations. Once the conversion is completed the data is exported to a new csv file.
 
 
 The data is then loaded into Tableau to begin creating our story.
