@@ -1,14 +1,14 @@
 # bikesharing
 
 ## Project Overview
-Using Tableau to visualize relationships in NYC CitiBike rental data from August, 2019 to inform decision making about potential bike rental service opportunities. 
+Using Tableau to visualize relationships in NYC CitiBike rental data from August, 2019 to inform decision making about potential bike rental service opportunities. 8 visualizations of the data are created using Tableau and published on Tableau Public in the form of a Story. The Tableau Story can be viewed here : [link to dashboard](https://public.tableau.com/shared/PQ3NYBY87?:display_count=n&:origin=viz_share_link "NYC CitiBike Analysis")
 
 ### Resources
 - Data Source: "Resources/201908-citibike-tripdata.csv" retrieved from https://s3.amazonaws.com/tripdata/index.html
 - Software : Tableau Public 22.3, VS Code v1.71.2, Python 3.7, Pandas 1.3.5
 
 ## Results
-To begin we loaded the data into a Jupyter Notebook and utilized Pandas to convert the tripduration in the dataset from seconds to a datetime format from its original int64 datatype. This was necessary to create the checktime visualizations later, the conversion is added as an additional column, and the tripduration column is kept as it is necessary for other visualizations not presented here. Once the conversion is completed the data exported to a new csv file.
+To begin we loaded the data into a Jupyter Notebook and utilized Pandas to convert the tripduration in the dataset from seconds to a datetime format from its original int64 datatype. This was necessary to create the checktime visualizations later. The conversion is added as an additional column, and the tripduration column is kept as it is necessary for other visualizations not presented here. Once the conversion is completed the data is exported to a new csv file.
 
 
 The data is then loaded into Tableau to begin creating our story.
