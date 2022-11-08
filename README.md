@@ -8,7 +8,7 @@ Using Tableau to visualize relationships in NYC CitiBike rental data from August
 - Software : Tableau Public 22.3, VS Code v1.71.2, Python 3.7, Pandas 1.3.5
 
 ## Results
-To begin we loaded the data into a Jupyter Notebook and utilized Pandas to convert the tripduration in the dataset from seconds to a datetime format from its original int64 datatype. This was necessary to create the checktime visualizations later. The conversion is added as an additional column, and the tripduration column is kept as it is necessary for other visualizations not presented here. Once the conversion is completed the data is exported to a new csv file.
+To begin we loaded the data into a Jupyter Notebook and utilized Pandas to convert the tripduration in the dataset from seconds to a datetime format from its original int64 datatype. This conversion is necessary to create the checktime visualizations in the story. The conversion is added as an additional column, and the tripduration column is kept as it is necessary for other visualizations not presented here. Once the conversion is completed the data is exported to a new csv file.
 
 
 The data is then loaded into Tableau to begin creating our story.
@@ -63,7 +63,7 @@ Our last two charts show the trip durations and trip counts based on the birth y
 A line graph is presented for each that plots the Average Trip Duration, and Number of rentals based on the birth year of the user. In the first graph we can clearly see that younger users tend to take longer trips, as expected. The second line chart reveals that a higher usage rate exists in the 20-40 age group. This supports our prior supposition of male and female commuters making up the majority of the users in the data.
 
 ## Summary
-Overall these visualizations reveal a several key points about the data. First we note that the majority of rentals are for short periods of time, less than half an hour. Next we see that Males make up the majority of the bike rentals. Subscribers are represented in much larger numbers than Customers, and usage rates are much higher during the week, specifically at commuting times, rather than on the weekends. This analysis suggests that the largest user demographic may be Males aged 20-40 who subscribe to the service for commuting, followed distantly by Female Subscribers. 
+Overall these visualizations reveal several key points about the data. First we note that the majority of rentals are for short periods of time, less than half an hour. Next we see that Males make up the majority of the bike rentals. Subscribers are represented in much larger numbers than Customers, and usage rates are much higher during the week, specifically at commuting times, rather than on the weekends. This analysis suggests that the largest user demographic may be Males aged 20-40 who subscribe to the service for commuting, followed distantly by Female Subscribers. 
 
 Two additional visualations that could provide more information about this data are:
 
