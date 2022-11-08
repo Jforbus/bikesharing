@@ -15,7 +15,7 @@ The data is then loaded into Tableau to begin creating our story.
 
 The first viz created shows the trip durations for all rides broken down by hour and then minutes.
 
-![checktime_users](https://github.com/Jforbus/bikesharing/blob/main/Resources/checktime_gndr.png)
+![checktime_users](https://github.com/Jforbus/bikesharing/blob/main/Resources/checktime_users.png)
 
 The chart is filterable based on the hours of duration, and plots a line showing the number of rides at each duration.
 This line graph clearly shows that the vast majority of rides are less than half an hour long, with most lasting less than 20 minutes.
